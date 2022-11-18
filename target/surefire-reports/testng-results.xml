@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T22:43:59 CST" name="OpenCartSuite" finished-at="2022-11-15T22:44:12 CST" duration-ms="12445">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistrationtest.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationtest@56de5251]" name="test_account_registration" class="testCases.TC_001_AccountRegistrationtest"/>
+        <method signature="TC_002_Logintest.test_Login()[pri:0, instance:testCases.TC_002_Logintest@78aab498]" name="test_Login" class="testCases.TC_002_Logintest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_Logintest.test_Login()[pri:0, instance:testCases.TC_002_Logintest@78aab498]" name="test_Login" class="testCases.TC_002_Logintest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistrationtest.test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationtest@56de5251]" name="test_account_registration" class="testCases.TC_001_AccountRegistrationtest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-11-15T22:43:59 CST" name="OpenCartTest" finished-at="2022-11-15T22:44:12 CST" duration-ms="12445">
+      <class name="testCases.TC_001_AccountRegistrationtest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistrationtest@56de5251]" started-at="2022-11-15T22:43:59 CST" name="setup" finished-at="2022-11-15T22:44:03 CST" duration-ms="3117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_registration()[pri:0, instance:testCases.TC_001_AccountRegistrationtest@56de5251]" started-at="2022-11-15T22:44:03 CST" name="test_account_registration" finished-at="2022-11-15T22:44:09 CST" duration-ms="6087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationtest@56de5251]" started-at="2022-11-15T22:44:09 CST" name="tearDown" finished-at="2022-11-15T22:44:09 CST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_AccountRegistrationtest -->
+      <class name="testCases.TC_002_Logintest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_Logintest@78aab498]" started-at="2022-11-15T22:44:09 CST" name="setup" finished-at="2022-11-15T22:44:11 CST" duration-ms="2017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_Logintest@78aab498]" started-at="2022-11-15T22:44:11 CST" name="test_Login" finished-at="2022-11-15T22:44:12 CST" duration-ms="734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Logintest@78aab498]" started-at="2022-11-15T22:44:12 CST" name="tearDown" finished-at="2022-11-15T22:44:12 CST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_Logintest -->
+    </test> <!-- OpenCartTest -->
+  </suite> <!-- OpenCartSuite -->
+</testng-results>
